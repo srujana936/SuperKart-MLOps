@@ -1,0 +1,33 @@
+{
+  "target": "Product_Store_Sales_Total",
+  "numeric_columns": [
+    "Product_Weight",
+    "Product_Allocated_Area",
+    "Product_MRP",
+    "Store_Establishment_Year"
+  ],
+  "categorical_columns": [
+    "Product_Id",
+    "Product_Sugar_Content",
+    "Product_Type",
+    "Store_Id",
+    "Store_Size",
+    "Store_Location_City_Type",
+    "Store_Type"
+  ],
+  "numeric_defaults": {
+    "Product_Weight": 12.655000000000001,
+    "Product_Allocated_Area": 0.055,
+    "Product_MRP": 146.585,
+    "Store_Establishment_Year": 2009.0
+  },
+  "categorical_defaults": {
+    "Product_Id": "DR1006",
+    "Product_Sugar_Content": "Low Sugar",
+    "Product_Type": "Fruits and Vegetables",
+    "Store_Id": "OUT004",
+    "Store_Size": "Medium",
+    "Store_Location_City_Type": "Tier 2",
+    "Store_Type": "Supermarket Type2"
+  }
+}
