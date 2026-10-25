@@ -169,7 +169,7 @@ def main():
 
     # Save the trained model artifact.
     model_path = MODEL_DIR / "superkart_best_model.joblib"
-    joblib.dump(best_model, model_path)
+    joblib.dump(best_model, model_path, compress=3)
 
     # Save metrics and model comparison for reproducibility.
     report = {
