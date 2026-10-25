@@ -4,7 +4,7 @@
   "candidate_models": [
     {
       "model": "RandomForest",
-      "cv_rmse": 276.9487178847619,
+      "cv_rmse": 276.98111895601426,
       "best_parameters": {
         "model__max_depth": null,
         "model__min_samples_leaf": 1,
@@ -13,7 +13,7 @@
     },
     {
       "model": "DecisionTree",
-      "cv_rmse": 299.99766350478615,
+      "cv_rmse": 299.1913006174952,
       "best_parameters": {
         "model__max_depth": null,
         "model__min_samples_leaf": 1
@@ -31,9 +31,9 @@
   ],
   "final_test_metrics": {
     "model_name": "RandomForest",
-    "test_mae": 77.51544244152866,
-    "test_rmse": 280.7171649797712,
-    "test_r2": 0.930937120176518,
+    "test_mae": 77.4663225613233,
+    "test_rmse": 280.59708489439686,
+    "test_r2": 0.9309961924657044,
     "training_rows": 7010,
     "testing_rows": 1753,
     "target": "Product_Store_Sales_Total"
